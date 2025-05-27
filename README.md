@@ -94,16 +94,20 @@ Improve precision by using NLP tools like spaCy or transformers.
 
 ## 📁 Folder Structure
 
-art-dataset-extractor/
-├── data/
-│ └── art_dataset.csv
-├── scripts/
-│ ├── extract_lightweight.py
-│ ├── enrich_with_nlp.py
-│ └── train_classifier.py
-├── models/
-│ └── art_classifier.pkl
-└── README.md
+### 📂 art-dataset-extractor
+
+- **README.md**
+
+#### 📂 data
+- `art_dataset.csv`
+
+#### 📂 scripts
+- `extract_lightweight.py`
+- `enrich_with_nlp.py`
+- `train_classifier.py`
+
+#### 📂 models
+- `art_classifier.pkl`
 
 
 ## 🧩 Future Integration
